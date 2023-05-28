@@ -1,0 +1,37 @@
+
+{{ define "main" }}
+  <main>
+      {{ .Content }}
+      <h2>Upcoming Events</h2>
+          <table class="contents" style="bor">
+            <tr><th>Date</th><th>Time</th><th>Name</th></tr>
+            {{ $events := (where .Site.RegularPages  "Section" "events").Reverse }}
+            {{ range  $events | intersect (where $events "Date" "ge" now) | first 5  }}
+              <tr>
+                  <div>
+                    <th class="eventdate">{{ .Date | time.Format "Monday, 2 Jan 2006 " }}</th> 
+                    <th class="eventdate">{{ .Date | time.Format "15:04" }}{{if isset .Params "end"}} - {{ .Params.end | time.Format "15:04" }} {{end}}</th>                 
+                      <th>
+                        <a href="{{ .RelPermalink }}" class="event" style="display: block; color: unset; text-decoration: none;">
+                          {{ .Title }}</a></th>
+                  </div>
+                </tr>
+          {{ end }}
+            </table>
+            <h2>Past Events</h2>
+            <table class="contents">
+              <tr><th>Date</th><th>Time</th><th>Name</th></tr>
+              {{ $events := (where .Site.RegularPages  "Section" "events").Reverse }}
+              {{ range  $events | intersect (where $events "Date" "lt" now) | first 5  }}
+                <tr>
+                    <div>
+                      <th class="eventdate">{{ .Date | time.Format "Monday, 2 Jan 2006 " }}</th>
+                      <th class="eventdate">{{ .Date | time.Format "15:04" }}{{if isset .Params "end"}} - {{ .Params.end | time.Format "15:04" }} {{end}}</th>                 
+                      <th>{{ .Title }}</th>
+                    </div>
+                  </tr>
+            {{ end }}
+              </table>
+  </main>
+{{ end }}
+
