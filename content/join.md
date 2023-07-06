@@ -1,0 +1,19 @@
+---
+title: "Join"
+menu: "main"
+---
+
+You can join for free on [idk](https://portal).
+
+This will give you access to all our events and resources, and will also guide you through joining our Discord server and mailing list.
+
+### FAQ
+
+#### Is membership completely free, and will events also be free?
+
+Membership & all events are currently free, and we will try to keep it this way. <!--  thanks to  the generous support of our sponsors. -->
+
+<!-- #### Why is x not listed on the unions directory of soceities
+
+We are not currently a registed CSP with the Imperial College Union, due to our application being rejected. This does however not affect the operation of ??? for now, and we try to have our soceity affiliated with the union as soon as possible. -->
+

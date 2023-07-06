@@ -1,0 +1,48 @@
+
+div#left, div#center, div#right{
+    padding: 20px;
+}
+
+
+$width-hidesidebar: 900px;
+$width-mobile : 520px;
+
+/* medium - hide right bar completely */
+
+@media  screen and (max-width: $width-hidesidebar) and  (min-width: $width-mobile ) {
+    div#right {
+        display: none;
+    }
+}
+
+/* wide - show everything */
+
+@media not screen and (max-width: $width-mobile) {
+    div#container {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+    div#left {
+        flex: 0 0 220px;
+        overflow: auto;
+    }
+    div#center {
+        flex-grow: 1;
+        overflow: auto;
+    }
+    div#right {
+        flex: 0 0 350px;
+        overflow: auto;
+    }
+}
+
+/* narrow - vertical stack */
+
+@media screen and (max-width: 520px) {
+    div#container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

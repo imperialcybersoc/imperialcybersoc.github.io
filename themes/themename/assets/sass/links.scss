@@ -1,0 +1,51 @@
+/* Navigation links on left bar */
+
+$nav-bg: rgba(255, 255, 255, 0.1);
+
+a {
+    color: $orange-light;
+    text-decoration: none;
+
+    // &:hover{}
+
+    &#title {
+        padding: 0px 0px 15px 0px;
+    }
+
+    &.navlink {
+        // margin: 10px 0px;
+        display: block;
+        width: max-content;
+        color: $orange-light;
+        padding: 2px 4px;
+    }
+}
+
+// a {
+//     //
+//     text-decoration: none;
+//     // margin: 2px 8px;
+//     color: $text-color; // or `inherit` i guess
+
+
+
+//     &.navlink {
+//         display: block;
+//         width: max-content;
+//         padding: 2px 4px;
+
+//         &:hover {
+//             background-color: $nav-bg;
+//         }
+//     }
+
+
+//     &.hoverbg:hover {
+//         background-color: $nav-bg;
+//     }
+// }
+
+
+// a{
+//     color: red; /*placeholder*/
+// }

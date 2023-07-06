@@ -2,11 +2,13 @@
 	<main>
 		<article>
 			<h1>{{ .Title }}</h1>
-			<!-- {{if isset .Params "end"}} Start: {{end}} -->
-			<time datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "Monday, 02/01/2006 | 15:04" }}</time>
-			{{if isset .Params "end"}} -->	<time datetime="{{ .Params.end | time.Format "2006-01-02T15:04:05" }}">{{ .Params.end | time.Format "15:04" }}</time>{{end}}
-			|
-			{{ partial "event/categories.html" . }}
+			<div>
+				{{ partial "event/parts/time.html" . }}
+				{{ partial "event/parts/date.html" . }}
+				{{ partial "event/parts/location.html" . }}
+				{{ partial "event/parts/categories.html" . }}
+
+			</div>
 			<hr>
 			<div>
 				{{ .Content }}

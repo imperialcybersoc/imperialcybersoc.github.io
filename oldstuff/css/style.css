@@ -78,12 +78,17 @@ a.category.cyber101{
 
 /* Resize - desktop */
 
+/* medium - hide right bar completely */
+
 @media  screen and (max-width: 900px) and  (min-width: 520px ) {
     div#right {
         display: none;
     }
 } 
-@media not screen and (max-width: 520px) {
+
+/* wide - show everything */
+
+@media  screen and not (max-width: 520px) {
     div#container {
         display: flex;
         flex-direction: row;
@@ -91,23 +96,19 @@ a.category.cyber101{
     }
 
     div#left {
-        /* min-width: 230px; */
-        /* width:20% */
-        width: 280px;
-        flex-shrink: 0;
+        flex: 0 0 280px;
     }
-
     div#center {
         flex-grow: 1;
         overflow: auto;
     }
-
     div#right {
         flex: 0 0 300px;
-
         overflow: auto;
     }
 }
+
+/* narrow - vertical stack */
 
 @media screen and (max-width: 520px) {
     div#container {

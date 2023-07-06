@@ -1,0 +1,21 @@
+@import "categories.scss";
+
+div.eventbox{
+    background-color: $bg-alt;
+    &:hover{
+        background-color: darken($bg-alt,5%);
+    }
+}
+
+
+div.eventpart{
+    *{
+        vertical-align: middle;
+    }
+    padding-bottom: 5px;
+
+}
+
+hr.eventbarseparator{
+    margin-top: 20px ;
+}

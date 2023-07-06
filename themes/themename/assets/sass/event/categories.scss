@@ -1,0 +1,27 @@
+@mixin ccol($baseColor) {
+    background-color: $baseColor;
+    &:any-link:hover {
+        background-color: darken($baseColor, 10%);
+    }
+}
+
+.category {
+    border-radius: 5px;
+    padding: 1px 5px;
+    margin: 0px 6px 0px 0px;
+    color: white;
+    @include ccol(#3e3e3e);
+
+    &.talk {
+        @include ccol(#5d5dcb);
+    }
+    &.workshop {
+        @include ccol(#8f6f2a);
+    }
+    &.cyber101 {
+        @include ccol(#cb4949);
+    }
+    &.social {
+        @include ccol(#8e48d5);
+    }
+}

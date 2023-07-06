@@ -2,7 +2,7 @@
 {{ define "main" }}
   <main>
       {{ .Content }}
-      <h2>Upcoming Events</h2>
+      <h1>Upcoming Events - WIP</h1>
           <table class="contents" style="bor">
             <tr><th>Date</th><th>Time</th><th>Name</th></tr>
             {{ $events := (where .Site.RegularPages  "Section" "events").Reverse }}

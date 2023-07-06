@@ -1,12 +1,25 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-gb'
-title = 'Website Name'
+title = 'pwnic'
 theme = 'themename'
 buildFuture = true
-enableGitInfo = true
+copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
+summaryLength = 15
 
 [taxonomies]
   category = 'categories'
 
 [permalinks]
   events = '/events/:year/:month/:title/'
+
+sectionPagesMenu = 'main'
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+#[[menu.main]]
+#  name = 'Join'
+#  URL = 'https://union.ic.ac.uk/'
+#  weight = 0

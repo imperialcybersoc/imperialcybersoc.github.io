@@ -1,29 +1,38 @@
 <!-- <p ><i>This website really doesn't work look great on mobile - try it on a desktop instead! </i>  </p> -->
-<div id="logobox" style="height: 120px; background-color: black;">
-    ICSC LOGO GOES HERE!
-</div>
-<span id="title" style="font-size: 1.45em; font-weight: bold;">Imperial College Cybersec Soceity</span>
+<!-- <div id="logobox" style="height: 120px; background-color: black;">
+    ICS LOGO GOES HERE!
+</div> -->
+<a id="title" href="{{.Site.BaseURL}}" style="font-size: 2.65em; font-weight: 600;">pwnic</a>
+<span id="alt" style="font-size: 1.35em; font-weight: 400;">Imperial College's cybersecurity soceity & CTF team</span>
+<br>
 <div id="links" style="flex-grow: 1;">
-    <a class="navlink" href="/">> Home</a>
-    <a class="navlink" href="/about">> About</a>
-    <a class="navlink" href="/events">> Events</a>
-    <a class="navlink" href="/contact">> Contact</a>
-    <a class="navlink" href="/team">> CTF Team</a>
-    <a class="navlink" href="https://www.imperialcollegeunion.org/">> Join <i></i></a>
-
+    {{- range site.Menus.main }}
+    <a class="navlink" href="{{ .URL }}">> {{ .Name }}</a>
+    {{- end }}
+    <!-- {{if not .Page}}
+        <i>(external)</i>
+        {{end}} -->
+    <!--
+<a class="navlink" href="/">> Home</a>
+<a class="navlink" href="/about">> About</a>
+<a class="navlink" href="/events">> Events</a>
+<a class="navlink" href="/contact">> Contact</a>
+<a class="navlink" href="/team">> CTF Team</a>
+<a class="navlink" href="https://www.imperialcollegeunion.org/">> Join <i></i></a> -->
 </div>
 <div id="footer">
     <div id="sponsors">
         <p>Sponsors:</p>
+        <img src="" style="max-width: 100px;" alt="logoA">
         <a class=" navlink" href="mailto:mail@example.com">pls sponsor us</a>
     </div>
     <div id="thanks">
         <p>Thanks To:</p>
-        <img src="/images/icu.svg" style="max-width: 100px;"  alt="Imperial College Union Logo">
+        <img src="" style="max-width: 100px;" alt="logoB">
     </div>
-    <br><img alt="Creative Commons Licence" style="border-width:0;" width="80" height="15" src="/images/by-nc-sa.png">
-    <br><img alt="Valid HTML5" style="border-width:0;" width="80" height="15" src="/images/valid_html5.png">
-
-    <!-- <br><i style="font-size: 0.8em; color: rgb(175, 175, 175); padding-top: px;">(x licensed, unless otherwise indicated) </i> -->
-
+    <br><a id="copyrightimage" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img
+            alt="CC BY-SA 4.0 License Badge" style="border-width:0;" width="80" height="15" src="/images/by-sa.png"></a>
+    {{/* <br><a href="https://validator.w3.org/check?uri=referer">
+        <img alt="Valid HTML5" style="border-width:0;" width="80" height="15" src="/images/valid_html5.png"></a>  */}}
+    <br><i id="copyrighttext">{{.Site.Copyright}}</i><br>
 </div>

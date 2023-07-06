@@ -1,8 +1,8 @@
 ---
-title: "Test event!"
-categories: ["Talk","Workshop", "Other" ,"Social"]
+title: "online event"
+categories: ["talk"]
 date: 2024-01-10T08:30:00
-location: "Union Bar"
+link: "https://teams.office.com/thisisreallyaverylonglinkisntit"
 ---
 
 Come to this event if you wanna see cool stuff!

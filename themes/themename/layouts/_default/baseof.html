@@ -1,40 +1,34 @@
 <!DOCTYPE html>
-{{ with .GitInfo }}
-{{.AbbreviatedHash}} fd
-{{ end }}
+{{"<!--" | safeHTML}}
+{{ partialCached "headercomment.html" . }}
+{{"-->" | safeHTML}}
+<html lang="{{ .Site.LanguageCode | default " en-us" }}">
 
-<html lang="{{ .Site.LanguageCode | default "en-us" }}">
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>{{ .Title }}</title>
-	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
-	<!-- {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }} -->
-	<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
-	{{ with .OutputFormats.Get "RSS" -}}
+	<!-- <title>{{ .Title }}</title> -->
+	<title>{{ if .IsHome }}Home - {{ else }}{{ if .Page.Title }}{{ .Page.Title }} - {{ end }}{{ end }}{{ .Site.Title }}</title>
+
+	{{ $style := resources.Get "/sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+	<!-- {{ with .OutputFormats.Get "RSS" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
-	{{- end }}
+	{{- end }} -->
 </head>
+
 <body>
-    <div id="container">
-        <div id="left" style="display: flex; flex-direction: column;">
-			{{ partial "leftbar" . }}
-        </div>
+	<div id="container">
+		<div id="left" style="display: flex; flex-direction: column;">
+			{{ partialCached "leftbar" . }}
+		</div>
 		<div id="center">
 			{{ block "main" . }}{{ end }}
-
-            <!-- <h2>Home</h2>
-            <div>
-                <p>The Imperial College Cybersec Soceity!</p>
-                <h3>Goals</h3>
-                <p>Certainy!</p>
-
-            </div> -->
 		</div>
-        <div id="right">
-			{{ partial "eventbar" . }}
-        </div>
-    </div>
-
+		<div id="right">
+			{{ partialCached "eventbar" . }}
+		</div>
+	</div>
 </body>
+
 </html>

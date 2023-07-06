@@ -1,16 +1,6 @@
-<h2>Upcoming events</h2>
-<hr>
+<h2 style="margin-bottom: 0px;">Upcoming events ⤵</h2>
+<a   class="hoverbg" href="{{ "/events" | urlize }}">(view all)</a>
 {{ $events := (where .Site.RegularPages  "Section" "events").Reverse }}
 {{ range  $events | intersect (where $events "Date" "ge" now) | first 5  }}
-<a href="{{ .RelPermalink }}" class="event" style="display: block; color: unset; text-decoration: none;">
-    <h3 class="eventtitle">> {{ .Title }}</h3>
-    <span class="eventdate">{{ .Date | time.Format "Monday, 2 Jan 2006 " }}</span><br>
-    <span class="eventdate">{{ .Date | time.Format "15:04" }}{{if isset .Params "end"}} - {{ .Params.end | time.Format "15:04" }} {{end}}</span> 
-    <!-- 2006 MST -->
-</a>
-    {{ partial "event/categories.html" . }}
-
-    <!-- <p class="eventdesc">{{ .Summary }}</p> -->
-<hr>
+    {{ partial "event/eventbox.html" . }}
 {{ end }}
-
