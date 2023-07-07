@@ -1,11 +1,10 @@
 <a href="{{ .RelPermalink }}" class="event" style="display: block; color: unset; text-decoration: none;">
-<div class="eventbox" style="border: 1px solid white; border-radius: 10px; padding: 0px 15px; margin: 20px 0px;">
-        <h3 class="eventtitle">> {{ .Title }}</h3>
-        {{ partial "event/parts/date.html" . }}
-        {{ partial "event/parts/time.html" . }}
-        {{ partial "event/parts/location.html" . }}
+<div class="eventbox" >
+    <h3 class="eventtitle">{{ .Title }}</h3>
+    {{ partial "event/parts/date.html" . }}
+    {{ partial "event/parts/time.html" . }}
+    {{ partial "event/parts/location.html" . }}
     {{ partial "event/parts/categories-nolink.html" . }}
     <p class="eventsummary">{{ .Summary }}</p>
-    <!-- <hr class="eventbarseparator"> -->
 </div>
 </a>

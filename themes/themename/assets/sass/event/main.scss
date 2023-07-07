@@ -1,7 +1,20 @@
 @import "categories.scss";
 
+h3.eventtitle{
+    font-size: 22px;
+    color: white ;
+}
+
+
 div.eventbox{
+    border: 1px solid #D4D4D4; 
+    border-radius: 20px; 
+    padding: 5px 25px; 
+    margin: 20px 0px;
     background-color: $bg-alt;
+    // box-shadow: -1px 1px 81px -48px rgba(0,0,0,0.75);
+
+
     &:hover{
         background-color: darken($bg-alt,5%);
     }

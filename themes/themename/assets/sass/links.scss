@@ -2,22 +2,60 @@
 
 $nav-bg: rgba(255, 255, 255, 0.1);
 
+svg.navarrow{
+    display: inline-block; vertical-align:middle;
+}
+
+div#links{
+    padding-top: 25px;
+}
+
 a {
-    color: $orange-light;
-    text-decoration: none;
+    color: $highlight-color;
+    // 
 
     // &:hover{}
 
     &#title {
         padding: 0px 0px 15px 0px;
+        text-decoration: none;
     }
 
     &.navlink {
         // margin: 10px 0px;
-        display: block;
+        font-size: 20px;
+        display: inline-block;
+        vertical-align: middle;
         width: max-content;
-        color: $orange-light;
-        padding: 2px 4px;
+        color: $highlight-color;
+        padding: 3px 4px;
+        text-decoration: none;
+    }
+
+    &.joinbutton{
+        margin-top: 40px;
+        background-color: $highlight-color;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 6px;
+        color: $bg-alt;
+        display:flex;
+        text-decoration: none;
+
+        &:hover{
+            background-color: darken($highlight-color,5%);
+        }
+        span.jointext{
+            margin-left: 15px;
+            font-size: 22px;
+            font-weight: 600;
+        }
+        svg.joinarrow{
+            margin-left: auto;
+            margin-right: 10px;
+            align-self: center;
+        }
     }
 }
 

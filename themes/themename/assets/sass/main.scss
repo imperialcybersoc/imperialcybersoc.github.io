@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
 
 
 @import "variables.scss";
@@ -20,17 +18,42 @@ html {
     padding: 0px;
     background-color: $bg-color;
     color: $text-color;
-    font-family: $sans-font;
+    font-family: $font;
     font-weight: 400;
+}
+
+p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: normal;
 }
 
 h1,
 h2,
 h3,
 h4,
-.navlink,
+h5,
+h6,
 a#title {
-    font-family: $mono-font;
+    // padding-left: 50px;
+    color: $highlight-color;
+    font-weight: 600;
+
+}
+
+a#title{
+    display:inline-block;
+
+    margin-top: 40px;
+    font-size: 44px;
+    font-weight: 600;
+
+}
+span#alt{
+    padding-top: 5px;
+    color: #A9B1D6;
+    font-size: 20px;
 }
 
 /* potentially temporary! */
@@ -42,9 +65,6 @@ main img {
     margin-right: auto;
     padding: 15px 0px;
 }
-
-
-
 
 
 
@@ -61,6 +81,6 @@ main img {
 
 }
 
-div#left{
-    // border-right: 1px solid #e1e1e1;
+div#left {
+    background-color: $bg-left-color;
 }
