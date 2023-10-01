@@ -12,7 +12,4 @@ menu: "main"
 * y
 * z
 
-Comittee:
-
-* Name - Position
-
+Information about the committee can be found [here](/committee)

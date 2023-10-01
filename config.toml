@@ -1,6 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-gb'
-title = 'pwnic'
+title = 'Imperial Cybersoc'
 theme = 'themename'
 buildFuture = true
 copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
