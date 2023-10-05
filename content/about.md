@@ -3,7 +3,7 @@ title: "About"
 menu: "main"
 ---
 
-## What is x?
+<!-- ## What is x?
 
 ...
 
@@ -12,4 +12,4 @@ menu: "main"
 * y
 * z
 
-Information about the committee can be found [here](/committee)
+Information about the committee can be found [here](/committee) -->

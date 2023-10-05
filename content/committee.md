@@ -3,7 +3,7 @@ title: "Committee"
 menu: "main"
 ---
 
-## Current Committee
+<!-- ## Current Committee
 
 as of xyz meeting, the current committe consists of:
 
@@ -16,4 +16,4 @@ as of xyz meeting, the current committe consists of:
 
 ### ????-????
 
-* position - name
+* position - name -->
