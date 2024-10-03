@@ -1,8 +1,8 @@
 ---
 title: "TBA CTF Event"
 categories: ["competition", "conference"]
-#date: 2024-11-{tba}T10:30:00
-#end: 2024-11-{tba}T20:30:00
+#date: 2024-11-01T00:00:00
+#end: 2024-11-01T00:00:01
 ---
 
 The details of this event have yet to be officially announced.
