@@ -7,6 +7,7 @@ location: "Beit: Meeting Room 3"
 ---
 
 Checking the time can be a powerful strategy to leak information from even the most secure systems.
+<!--more-->
 
 In this workshop, we'll help you design an attack on a simple password-checking system, and later we'll show you how to design a secure password-checking method.
 

@@ -7,7 +7,7 @@ location: "TBA"
 ---
 
 In this session, you will be tackling some easy CTF challenges, with the help and guidance of our committee members.
-
+<!--more-->
 (and possibly more experienced Society Members).
 
 We'll show you the types of challenges you can expect to see in a CTF, how to tackle them, and what to look out for.
