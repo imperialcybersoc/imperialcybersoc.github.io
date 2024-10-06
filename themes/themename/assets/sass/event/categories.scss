@@ -10,19 +10,40 @@
     padding: 1px 5px;
     margin: 0px 6px 0px 0px;
     color: white;
-    @include ccol(#6F6F6F);
+    @include ccol(#6f6f6f);
 
+    &.arg {
+        @include ccol(#00710b);
+    }
+    &.collab {
+        @include ccol(#42ab8f);
+    }
     &.talk {
-        @include ccol(#5d5dcb);
+        @include ccol(#dd7334);
     }
     &.workshop {
-        @include ccol(#DD7334);
+        @include ccol(#5d5dcb);
     }
-    &.cyber101 {
-        @include ccol(#D94A65);
+    &.cs101 {
+        @include ccol(#d94a65);
+    }
+    &.cs102 {
+        @include ccol(#5047da);
+    }
+    &.cs201 {
+        @include ccol(#ce2745);
+    }
+    &.cs202 {
+        @include ccol(#2e17de);
     }
     &.social {
         @include ccol(#7e528b);
+    }
+    &.competition {
+        @include ccol(#c030ca);
+    }
+    &.conference {
+        @include ccol(#af8d2e);
     }
     //#437D9F
     
