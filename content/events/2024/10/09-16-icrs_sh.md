@@ -16,4 +16,4 @@ If you choose to accept our Challenge(s), you will have until 17:00 on Wednesday
 
 Good luck, Challengers \:)
 
-Should you be really struggling with or find a problem with any of our challenges, please send us an email <a href="mailto:fssh-help@iccybersoc.org">here</a>.
+Should you be really struggling with or find a problem with any of our challenges, please send us an email [here](mailto:fssh-help@iccybersoc.org).
