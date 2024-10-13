@@ -3,7 +3,7 @@ title: "Beginner CTF Session"
 categories: ["workshop"]
 date: 2024-10-15T17:00:00
 end: 2024-10-15T19:00:00
-location: "TBA"
+location: "Beit: Meeting Room 3"
 ---
 
 In this session, you will be tackling some easy CTF challenges, with the help and guidance of our committee members.
