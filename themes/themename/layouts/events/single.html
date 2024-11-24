@@ -1,13 +1,17 @@
 {{ define "main" }}
 	<main>
 		<article>
-			<h1>{{ .Title }}</h1>
+			<h1>
+				<!-- I need to put it on one line to prevent rendering with a space -->
+				{{ .Title }}{{ if isset .Params "tagline" }}:
+				{{ .Params.tagline }}
+				{{ end }}
+			</h1>
 			<div>
-				{{ partial "event/parts/time.html" . }}
 				{{ partial "event/parts/date.html" . }}
+				{{ partial "event/parts/time.html" . }}
 				{{ partial "event/parts/location.html" . }}
 				{{ partial "event/parts/categories.html" . }}
-
 			</div>
 			<hr>
 			<div>
