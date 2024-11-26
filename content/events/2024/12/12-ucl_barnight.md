@@ -15,4 +15,4 @@ This'll be a great opportunity to get to know some students from other London un
 
 Closest Station is Russell Square, which is on the Piccadilly line (~8 stops from South Kensington).
 
-[//] # (Also, possibly KCL, if they're in, update this page)
+[//]: # (Also, possibly KCL, if they're in, update this page)
