@@ -1,9 +1,9 @@
 ---
 title: "LakeCTF Gathering"
-categories: ["idk"]
+categories: ["ctf"]
 date: 2024-12-07T17:00:00
 end: 2024-12-08T18:00:00
-location: "TBC" # should be HXLY 315
+location: "HXLY 315"
 ---
 
 This will be a gathering of anyone who wants to participate in a CTF: we'll be competing as one big team.
