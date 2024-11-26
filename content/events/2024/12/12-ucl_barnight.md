@@ -1,6 +1,6 @@
 ---
 title: "ICLxUCL CyberSoc Barnight"
-categories: ["barnight", "collab", "external"]
+categories: ["meetup", "collab", "external"]
 date: 2024-12-12T18:00:00
 end: 2024-12-12T20:00:00
 location: "UCL Institute Bar"
