@@ -4,7 +4,7 @@ tagline: "Discovering, Dismantling, and Distorting the promises of GenAI"
 categories: ["talk"]
 date: 2024-12-06T18:15:00
 end: 2024-12-06T19:30:00
-location: "TBC" # should be HXLY 139
+location: "HXLY 139"
 ---
 
 What do generative models understand? How can they be attacked? How can they be misused, subverted, or weaponised?
