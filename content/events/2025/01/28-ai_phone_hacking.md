@@ -12,7 +12,7 @@ How can AI be used to gain access to your phone?
 
 In this informal brainstorming/discussion session, a couple starter ideas will be presented, before the question is then be opened up to the floor, for brainstorming of more ideas :D
 
-Please come along for a fun, creative session, where we explore the more creative aspects of applied cybersecurity.
+Please come along for a fun, (hopefully) innovative session, where we explore the more creative aspects of applied cybersecurity.
 
 This is a completely open event, accessible to anyone regardless of technical level, because anyone can contribute ideas :)\
 This will be an open-floor discussion, but the exact style is amenable (by popular vote) on the day.
