@@ -1,6 +1,6 @@
 ---
 title: "CyberSoc __future__ Discussion"
-categories: ["meeting", "meetup"]
+categories: ["meeting", "social"]
 date: 2024-12-03T18:00:00
 end: 2024-12-03T19:00:00
 location: "HXLY 217"
