@@ -16,7 +16,10 @@
         @include ccol(#00710b);
     }
     &.ctf {
-        @include ccol(#52e5e7);
+        @include ccol(#2b9294);
+    }
+    &.discussion {
+        @include ccol(#5acd5e);
     }
     &.talk {
         @include ccol(#dd7334);
@@ -39,6 +42,9 @@
     &.social {
         @include ccol(#b783c7);
     }
+    &.quiz {
+        @include ccol(#c78f40);
+    }
     &.competition {
         @include ccol(#c030ca);
     }
@@ -48,7 +54,10 @@
     &.collab {
         @include ccol(#42ab8f);
     }
-    &.IKU {
+    &.misc {
+        @include ccol(#1c1c1c);
+    }
+    &.iku {
         @include ccol(#793bb8);
     }
     //#437D9F
