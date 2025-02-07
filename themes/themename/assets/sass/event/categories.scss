@@ -15,8 +15,8 @@
     &.arg {
         @include ccol(#00710b);
     }
-    &.collab {
-        @include ccol(#42ab8f);
+    &.ctf {
+        @include ccol(#52e5e7);
     }
     &.talk {
         @include ccol(#dd7334);
@@ -37,13 +37,19 @@
         @include ccol(#2e17de);
     }
     &.social {
-        @include ccol(#7e528b);
+        @include ccol(#b783c7);
     }
     &.competition {
         @include ccol(#c030ca);
     }
     &.conference {
         @include ccol(#af8d2e);
+    }
+    &.collab {
+        @include ccol(#42ab8f);
+    }
+    &.IKU {
+        @include ccol(#793bb8);
     }
     //#437D9F
     
