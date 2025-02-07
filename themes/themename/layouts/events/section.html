@@ -3,41 +3,43 @@
   <main>
       {{ .Content }}
       <h1>Upcoming Events - WIP</h1>
-          <table class="events">
-            <tr><th>Date</th><th>Time</th><th>Name</th></tr>
+          <div class="events">
+            <table class="events-header">
+              <tr><th width="30%">Date</th><th width="20%">Time</th><th width="50%">Name</th></tr>
+            </table>
             {{ $events := (where .Site.RegularPages  "Section" "events").Reverse }}
             {{ range  $events | intersect (where $events "Date" "ge" now) | first 5  }}
-            <tr>
-                <div>
-                  <th class="eventdate">{{ .Date | time.Format "Monday, 2 Jan 2006 " }}</th>
-                  <th class="eventdate">{{ .Date | time.Format "15:04" }}{{if isset .Params "end"}} - {{ .Params.end | time.Format "15:04" }} {{end}}</th>
-                  <th>
-                    <a href="{{ .RelPermalink }}" class="event" style="display: block; color: unset; text-decoration: none;">
+            <a href="{{ .RelPermalink }}" class="event" style="display: block; color: unset; text-decoration: none;">
+            <table class="events"><tr>
+                  <td class="eventdate" width="30%">{{ .Date | time.Format "Monday, 2 Jan 2006 " }}</td>
+                  <td class="eventdate" width="20%">{{ .Date | time.Format "15:04" }}{{if isset .Params "end"}} - {{ .Params.end | time.Format "15:04" }} {{end}}</td>
+                  <td width="50%">
                       {{ .Title }}
-                    </a>
-                  </th>
-                </div>
-              </tr>
-          {{ end }}
-          </table>
-            <h2>Past Events</h2>
-            <table class="events">
-              <tr><th>Date</th><th>Time</th><th>Name</th></tr>
-              {{ $events := (where .Site.RegularPages  "Section" "events") }}
-              {{ range  $events | intersect (where $events "Date" "lt" now) | first 10  }}
-              <tr>
-                <div>
-                  <th class="eventdate">{{ .Date | time.Format "Monday, 2 Jan 2006 " }}</th>
-                  <th class="eventdate">{{ .Date | time.Format "15:04" }}{{if isset .Params "end"}} - {{ .Params.end | time.Format "15:04" }} {{end}}</th>
-                    <th>
-                      <a href="{{ .RelPermalink }}" class="event" style="display: block; color: unset; text-decoration: none;">
-                        {{ .Title }}
-                      </a>
-                    </th>
-                </div>
-              </tr>
+                  </td>
+              </tr></table>
+            </a>
             {{ end }}
-            </table>
+          </div>
+          <h2>Past Events</h2>
+          <table class="events-header">
+            <tr><th width="30%">Date</th><th width="70%">Name</th></tr>
+          </table>
+          <div class="events">
+            {{ $events := (where .Site.RegularPages "Section" "events") }}
+            {{ range $events | intersect (where $events "Date" "lt" now) | first 10 }}
+            <a href="{{ .RelPermalink }}" class="event" style="display: block; color: unset; text-decoration: none;">
+            <table class="events">
+              <tr>
+                <td class="eventdate" width="30%">
+                  {{ .Date | time.Format ":date_medium" }}
+                </td>
+                  <td width="70%">
+                      {{ .Title }}
+                  </td>
+            </tr>
+            </table></a>
+          {{ end }}
+          </div>
   </main>
 {{ end }}
 
