@@ -33,21 +33,37 @@ hr.eventbarseparator{
     margin-top: 20px ;
 }
 
+div.events {
+    .event:nth-child(even) {
+        background-color: $bg-alt;
+    }
+}
+
 table.events {
     width: 100%;
 
+    th {
+        font-size: large;
+    }
+
     tr{
         padding: 10px 0px;
-    }
-    td{
-        padding: 0 5px;
-        font-size: 18px;
-        color: white;
-    }
-    tr:nth-child(even){
-        background-color: $bg-alt;
+        td {
+            text-align: center;
+            padding: 10px 0;
+            font-size: 18px;
+            color: white;
+        }
     }
     tr:hover{
         background-color: darken($bg-alt, 5%);
+    }
+}
+
+table.events-header {
+    width: 100%;
+
+    th {
+        font-size: large;
     }
 }
