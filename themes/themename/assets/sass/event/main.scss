@@ -47,9 +47,6 @@ table.events {
     tr:nth-child(even){
         background-color: $bg-alt;
     }
-    tr:nth-child(odd){
-        background-color: $bg;
-    }
     tr:hover{
         background-color: darken($bg-alt, 5%);
     }
