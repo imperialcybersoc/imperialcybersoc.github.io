@@ -57,6 +57,9 @@
     &.misc {
         @include ccol(#1c1c1c);
     }
+    &.external {
+        @include ccol(#537a6a);
+    }
     &.iku {
         @include ccol(#793bb8);
     }
