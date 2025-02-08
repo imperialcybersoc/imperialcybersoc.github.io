@@ -3,16 +3,13 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}"/>
-<!-- <meta property="og:image" content="http://my.site.com/images/thumb.png" /> -->
-
 {{ if .Params.og_image }}
 <meta property="og:image" content="{{ .Params.og_image | absURL }}"/>
 {{ else }}
 <meta property="og:image" content="{{ .Site.Params.og_image | absURL }}"/>
 {{ end }}
-
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}" />
-<meta name="theme-color" content="#FF0000">
+<meta name="theme-color" content="#191922">
 {{ end }}
 {{ define "main" }}
 	<main>
