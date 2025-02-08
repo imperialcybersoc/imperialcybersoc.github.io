@@ -2,13 +2,13 @@
 {{ define "main" }}
   <main>
       {{ .Content }}
-      <h1>Upcoming Events - WIP</h1>
+      <h1>Upcoming Events</h1>
           <div class="events">
             <table class="events-header">
               <tr><th width="30%">Date</th><th width="20%">Time</th><th width="50%">Name</th></tr>
             </table>
             {{ $events := (where .Site.RegularPages  "Section" "events").Reverse }}
-            {{ range  $events | intersect (where $events "Date" "ge" now) | first 5  }}
+            {{ range  $events | intersect (where $events "Date" "ge" now) }}
             <a href="{{ .RelPermalink }}" class="event" style="display: block; color: unset; text-decoration: none;">
             <table class="events"><tr>
                   <td class="eventdate" width="30%">{{ .Date | time.Format "Monday, 2 Jan 2006 " }}</td>
@@ -26,7 +26,7 @@
           </table>
           <div class="events">
             {{ $events := (where .Site.RegularPages "Section" "events") }}
-            {{ range $events | intersect (where $events "Date" "lt" now) | first 10 }}
+            {{ range $events | intersect (where $events "Date" "lt" now) }}
             <a href="{{ .RelPermalink }}" class="event" style="display: block; color: unset; text-decoration: none;">
             <table class="events">
               <tr>
