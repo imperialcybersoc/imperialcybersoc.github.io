@@ -1,12 +1,10 @@
-<!-- <p ><i>This website really doesn't work look great on mobile - try it on a desktop instead! </i>  </p> -->
-<!-- <div id="logobox" style="height: 120px; background-color: black;">
-    ICS LOGO GOES HERE!
-</div> -->
-<div>
-    <a href="{{.Site.BaseURL}}" ><img src="/images/logo.svg" alt="Imperial Cybersoc logo" style="width: 80%; float: left; padding: 15px 0px;"></img></a>
+<div class="main-logo_container">
+    <a href="{{.Site.BaseURL}}" >
+        <img src="/images/logo.svg" alt="Imperial Cybersoc logo" style="width: 80%; float: left; padding: 15px 0px;"/>
+    </a>
 </div>
 
-<span id="alt" >Imperial College's Cybersecurity & CTF Society</span>
+<span id="alt" >ICL's Cybersecurity & CTF Society</span>
 <br>
 <div id="links" style="flex-grow: 1;">
     {{- range site.Menus.main }}
@@ -32,7 +30,9 @@
         <p style="font-size: 22px; ">Sponsors:</p>
         <img alt="none :(" src="https://media.tenor.com/_BiwWBWhYucAAAAM/what-huh.webp">
         <!-- <img src="" style="max-width: 100px;" alt="logoA"> -->
-        <a class=" navlink" href="mailto:cybersoc@imperial.ac.uk">pls sponsor us</a>
+        <a class=" navlink" href="mailto:cybersoc@imperial.ac.uk">
+            pls sponsor us
+        </a>
     </div>
     <!-- <div id="thanks">
         <p>Thanks To:</p>
