@@ -5,6 +5,6 @@
     {{ partial "event/parts/time.html" . }}
     {{ partial "event/parts/location.html" . }}
     {{ partial "event/parts/categories-nolink.html" . }}
-    <p class="eventsummary">{{ .Summary }}</p>
+    <p class="eventsummary">{{ .Params.Summary }}</p>
 </div>
 </a>
