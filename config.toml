@@ -6,6 +6,9 @@ buildFuture = true
 copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
 summaryLength = 15
 
+[params]
+og_image = 'og_card.png'
+
 [taxonomies]
   category = 'categories'
 
