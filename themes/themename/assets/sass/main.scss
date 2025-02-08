@@ -22,7 +22,7 @@ html {
     font-weight: 400;
 }
 
-p{
+p, li {
     font-family: Inter;
     font-size: 18px;
     font-weight: 300;
@@ -56,6 +56,10 @@ span#alt{
     font-size: 20px;
 }
 
+ul li {
+    padding: 5px 0px;
+}
+
 /* potentially temporary! */
 main img {
     max-width: 800px;
@@ -65,9 +69,6 @@ main img {
     margin-right: auto;
     padding: 15px 0px;
 }
-
-
-
 
 #copyrightimage:hover+br+#copyrighttext, #copyrighttext:hover{
     display: block;
