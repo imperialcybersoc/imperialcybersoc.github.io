@@ -16,13 +16,11 @@
 </head>
 <body>
 	<div id="container">
-		<div id="left" style="display: flex; flex-direction: column;">
-			{{ partialCached "leftbar" . }}
-		</div>
+		{{ partialCached "leftbar" . }}
 		<div id="center">
 			{{ block "main" . }}{{ end }}
 		</div>
-		<div id="right">
+		<div id="events">
 			{{ partialCached "eventbar" . }}
 		</div>
 	</div>
