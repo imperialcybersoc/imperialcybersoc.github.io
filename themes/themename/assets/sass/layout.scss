@@ -29,6 +29,8 @@ $width-mobile : 520px;
     #container {
         display: grid;
         grid-template-columns: 300px 1fr 350px;
+        grid-template-rows: 1fr auto;
+
         gap: 0px 0px;
         grid-template-areas:
             "top main events"
@@ -36,19 +38,17 @@ $width-mobile : 520px;
         height: 100%;
     }
 
-    div#center {
-        margin: 40px;
-    }
-
+    
+    div#center,
     div#events,
     div#top,
     div#bottom {
-        padding: 40px;
+        padding: 30px;
     }
 }
 
 
-#main {
+#center {
     grid-area: main;
     overflow: auto;
 }
@@ -60,13 +60,10 @@ $width-mobile : 520px;
 
 #top {
     grid-area: top;
-    overflow: auto;
+    overflow:visible;
 
 }
 
 #bottom {
-    align-self: end;
     grid-area: bottom;
-    overflow: auto;
-
 }
