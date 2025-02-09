@@ -2,13 +2,15 @@
 title: "IKU Quiz Social"
 categories: ["IKU", "social", "quiz"]
 location: TBD
-date: 2025-02-12T16:00:00
-end: 2025-02-12T18:00:00
+date: 2025-02-25T16:00:00
+end: 2025-02-25T18:00:00
 ---
 
-A chill quiz social (and optional barnight to follow) with our UCL and KCL sibling societies.
+Details all TBC
 
 <!--more-->
+
+A chill quiz social (and optional barnight to follow) with our UCL and KCL sibling societies.
 
 If you've been waiting for the chance to showcase your Cybersecurity knowledge, learn more about Cybersecurity, or just to meet other people, this is your chance!
 
