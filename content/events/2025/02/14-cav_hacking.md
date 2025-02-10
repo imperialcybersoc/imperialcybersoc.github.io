@@ -11,6 +11,8 @@ How safe is your self-driving car?
 <!--more-->
 
 This talk, delivered by Emily, will detail the mechanisms behind how Connected and Autonomous Vehicles (CAVs) work, focussing on their sensors.\
-Before then detailing the ways in which these sensors can be exploited to 'mess with' the CAV.
+Then discussing current research on methods and techniques for exploiting these sensors, to manipulate the CAV.
 
 Members of all levels are welcome, with a bit of prior knowledge on what an autonomous vehicle is, being helpful.
+
+![cav_hacking-poster](/images/20250214_1800_1900-poster.jpg)
