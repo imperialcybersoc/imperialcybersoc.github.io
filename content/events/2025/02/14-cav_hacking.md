@@ -1,7 +1,7 @@
 ---
 title: "Hacking Autonomous Vehicles"
 categories: ["talk"]
-location: "TBC"
+location: "HXLY 315"
 date: 2025-02-14T18:00:00
 end: 2025-02-14T19:00:00
 ---
