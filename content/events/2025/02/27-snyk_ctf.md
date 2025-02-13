@@ -1,7 +1,7 @@
 ---
 title: "Snyk CTF Gathering"
 categories: ["ctf"]
-location: TBC
+location: HXLY 145
 date: 2025-02-27T18:00:00
 end: 2025-02-27T20:00:00
 ---
