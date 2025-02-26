@@ -1,8 +1,8 @@
 ---
 title: "TBA: IKU CTF"
 categories: ["IKU", "competition", "ctf"]
-date: 2025-03-01T10:30:00
-end: 2025-03-01T18:00:00
+date: 2025-03-16T10:00:00
+end: 2025-03-16T18:00:00
 ---
 
 The details of this event have yet to be decided...
