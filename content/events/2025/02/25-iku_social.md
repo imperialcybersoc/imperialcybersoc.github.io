@@ -1,6 +1,6 @@
 ---
 title: "IKU Quiz Social"
-categories: ["IKU", "social", "quiz"]
+categories: ["IKU", "social", "quiz", "external", "off-campus"]
 location: The Huntley Bar, UCL
 loc_link: https://maps.app.goo.gl/8mBU8yFqUkkiSZMC7
 date: 2025-02-25T18:30:00
