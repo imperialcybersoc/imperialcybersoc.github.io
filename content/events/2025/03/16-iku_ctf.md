@@ -1,6 +1,6 @@
 ---
 title: "TBA: IKU CTF"
-categories: ["IKU", "competition", "ctf", "off-campus"]
+categories: ["IKU", "off-campus", "competition", "ctf"]
 date: 2025-03-16T10:00:00
 end: 2025-03-16T18:00:00
 ---
