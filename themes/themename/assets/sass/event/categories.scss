@@ -60,6 +60,9 @@
     &.external {
         @include ccol(#537a6a);
     }
+    &.off-campus {
+        @include ccol(#a64e75);
+    } 
     &.iku {
         @include ccol(#793bb8);
     }
