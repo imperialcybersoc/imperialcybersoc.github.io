@@ -1,6 +1,6 @@
 ---
 title: "LakeCTF Gathering"
-categories: ["ctf"]
+categories: ["ctf", "external"]
 date: 2024-12-07T17:00:00
 end: 2024-12-08T18:00:00
 location: "HXLY 315"
