@@ -3,8 +3,8 @@ title: "porticoHack"
 categories: ["IKU", "off-campus", "competition", "ctf"]
 location: 20 Bedford Way, UCL
 loc_link: https://maps.app.goo.gl/B1dDTHHYJT6oewLv5
-date: 2025-03-16T10:00:00
-end: 2025-03-16T20:00:00
+date: 2025-03-16T09:00:00
+end: 2025-03-16T21:00:00
 ---
 
 Joint CTF Competition with UCL and KCL CyberSocs!
