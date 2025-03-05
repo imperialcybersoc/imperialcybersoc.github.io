@@ -12,6 +12,7 @@
 	<!-- {{ with .OutputFormats.Get "RSS" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }} -->
+	<link rel="icon" href="/favicon.ico">
 	{{ block "head" . }}{{ end }}
 </head>
 <body>
