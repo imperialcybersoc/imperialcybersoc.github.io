@@ -1,7 +1,7 @@
 ---
 title: "porticoHack"
 categories: ["IKU", "off-campus", "competition", "ctf"]
-location: Clarke Hall, 20 Bedford Way, UCL
+location: 20 Bedford Way, UCL
 loc_link: https://maps.app.goo.gl/B1dDTHHYJT6oewLv5
 date: 2025-03-16T10:00:00
 end: 2025-03-16T20:00:00
@@ -17,6 +17,6 @@ On Sunday 16th March, we will be running this beginner to intermediate CTF, so p
 
 Please make sure to sign-up before the event, via the link provided by UCL: [porticoHack Post 🔗](https://www.instagram.com/p/DGkpejWo-wv/).
 
-The event will be run in UCL's [Clarke Hall](https://20bedfordway.com/attending-an-event/#:~:text=Clarke%20Hall), which is at Level 3 of 20 Bedford Way.
+This event will be held on UCL's Bloomsbury Campus, which is closest to the Warren Street, Euston Square, and Goodge Street Underground stations.
 
 And if you've got a spare moment, get on [picoctf](https://picoctf.org/), [hackthebox](https://www.hackthebox.com/), and [tryhackme](https://tryhackme.com/) to practice and hone your skills, in preparation for IC CyberSoc's London debut :)
