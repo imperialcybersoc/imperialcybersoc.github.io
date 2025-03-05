@@ -1,7 +1,7 @@
 ---
 title: "Melting the Artificial Mind"
 tagline: "Discovering, Dismantling, and Distorting the promises of GenAI"
-categories: ["talk"]
+categories: ["talk", "external"]
 date: 2024-12-06T18:15:00
 end: 2024-12-06T19:30:00
 location: "HXLY 139"
