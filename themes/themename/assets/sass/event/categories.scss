@@ -54,13 +54,16 @@
     &.collab {
         @include ccol(#42ab8f);
     }
+    &.networking {
+        @include ccol(#861a74);
+    }
     &.misc {
         @include ccol(#1c1c1c);
     }
     &.external {
         @include ccol(#537a6a);
     }
-    &.off-campus {
+    &.off_campus {
         @include ccol(#a64e75);
     } 
     &.iku {

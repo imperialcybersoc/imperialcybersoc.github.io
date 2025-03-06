@@ -1,6 +1,6 @@
 ---
 title: "ICLxKCLxUCL CyberSoc Barnight"
-categories: ["off-campus", "social", "IKU", "external"]
+categories: ["off_campus", "social", "IKU", "external"]
 date: 2024-12-12T18:00:00
 end: 2024-12-12T20:00:00
 location: UCL Institute Bar
