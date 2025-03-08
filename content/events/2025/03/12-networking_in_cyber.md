@@ -10,7 +10,7 @@ The importance of networking in fighting cyber security threats.
 
 <!--more-->
 
-Alexandra Forsyth has kindly offered to deliver an industry talk!
+Alexandra Forsyth, a cyber security threat analyst and entrepreneur, has kindly offered to deliver an industry talk!
 
 How are cyber security threats evolving?\
 What are the key areas of industry under threat?\
