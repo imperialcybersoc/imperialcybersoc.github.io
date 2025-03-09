@@ -2,8 +2,8 @@
 title: "TBD"
 categories: ["tbd"]
 location: "TBD"
-date: 2025-03-19T14:00:00
-end: 2025-03-19T15:30:00
+date: 2025-06-01T16:00:00
+end: 2025-06-01T17:30:00
 ---
 
 The details of this event have yet to be officially announced.
