@@ -15,4 +15,4 @@ Then discussing current research on methods and techniques for exploiting these 
 
 Members of all levels are welcome, with a bit of prior knowledge on what an autonomous vehicle is, being helpful.
 
-![cav_hacking-poster](/images/20250214_1800_1900-poster.jpg)
+![CAV-Hacking Poster](/images/events/2025/20250214_1800_1900-poster.jpg)
