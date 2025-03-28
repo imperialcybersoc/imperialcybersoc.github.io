@@ -19,10 +19,10 @@ At the time of writing (20250208), the current committee consists of:
 - Secretary: Aidan
 - Technical Officer: Quentin
 - Treasurer: Advait
-- [Academic Events Officer](https://accidental-crepe-70c.notion.site/Academic-Events-Officer-604de2e98f2b4028b56cb2ed6f909a6a): ???
+- Academic Events Officer: Joe
 - [Outreach Officer](https://accidental-crepe-70c.notion.site/Outreach-Officer-5253a42988594159976354cbd7d2a06a): ???
 - [Publicity Officer](https://accidental-crepe-70c.notion.site/Publicity-Officer-0d530aaf0f034460923b8085b4525c58): ???
-- [Space Officer](https://accidental-crepe-70c.notion.site/Space-Officer-085aec1f4b7c4bba99d70bbb4c840e43): ???
+- Space Officer: Hei Man
 
 ### Positions open in Upcoming Elections
 
