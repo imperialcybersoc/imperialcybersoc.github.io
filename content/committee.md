@@ -3,32 +3,33 @@ title: "Committee"
 menu: "main"
 ---
 
-Quick writeup for now, this page will be updated multiple times over the coming term.
+Quick writeup for now, this page will be updated multiple times over the coming year.
 
 <!-- Would like to redo this page using partials and stuff, similar to how the events page is done -->
 
 ## Current Committee (2024-2025)
 
-At the time of writing (20250208), the current committee consists of:
+At the time of writing (20250508), the current committee consists of:
 
-- [Academic Chair](https://accidental-crepe-70c.notion.site/Academic-Chair-e37c356a597045bda91dccf06ef73423): Pierce (but ??? in next elections)
-- [CTF Chair](https://accidental-crepe-70c.notion.site/CTF-Chair-a860a61e3f164c02b056ef9c3f426ee9): ??? (temporarily filled by Quentin)
-- CTF Events Officer: Hamish
+- [Academic Chair](https://accidental-crepe-70c.notion.site/academic-chair-role-description): Pierce (open in Summer elections)
+- CTF Chair: Finley
+- [CTF Events Officer](https://accidental-crepe-70c.notion.site/ctf-events-officer-role-description): Hamish (open in Summer elections?)
 - Editor: Breeze
-- President: Pierce
-- Secretary: Aidan
+- [President](https://accidental-crepe-70c.notion.site/president-role-description): Pierce (open in Summer elections)
+- [Secretary](https://accidental-crepe-70c.notion.site/secretary-role-description): Aidan (open in Summer elections)
 - Technical Officer: Quentin
-- Treasurer: Advait
+- [Treasurer](https://accidental-crepe-70c.notion.site/treasurer-role-description): Advait (open in Summer elections)
 - Academic Events Officer: Joe
-- [Outreach Officer](https://accidental-crepe-70c.notion.site/Outreach-Officer-5253a42988594159976354cbd7d2a06a): ???
-- [Publicity Officer](https://accidental-crepe-70c.notion.site/Publicity-Officer-0d530aaf0f034460923b8085b4525c58): ???
+- [Outreach Officer](https://accidental-crepe-70c.notion.site/outreach-officer-role-description): ??? (open in Summer elections)
+- Publicity Officer: Shoham
 - Space Officer: Hei Man
 
-### Positions open in Upcoming Elections
+### Summer Elections 2025
 
-All positions marked ??? are currently open positions: we're looking for eager members to fill these :)
+Most importantly, we need a President, Secretary, and Treasurer (we can't run a society without one :}).\
+As a heads-up, we have a prospective candidate who will be applying for President, but if you'd like to take a crack at it, go for it (but please also consider the other principle roles, too).
 
-Please read the role descriptions and responsibilities (links from role name), as these detail exactly what you'll be expected to do in those roles.
+**Please read the role descriptions and responsibilities** (links from role name), as these detail exactly what you'll be expected to do in those roles.
 
 | Abbreviations used | in Role Descriptions | | |
 | --- | --- | --- | --- |
@@ -37,11 +38,38 @@ Please read the role descriptions and responsibilities (links from role name), a
 | PO = Publicity Officer | PM = Puzzlemaster | RO = Relations Officer | SR = Secretary |
 | SO = Safety Officer | TO = Technical Officer | TS = Treasurer | PD/CH = President/Chair |
 
+The Union is still doing their "all important information is in our newsletters (and not easily accessible)" nonsense...\
+So, here are the important details that we have so far:
+
+#### Key dates for the Summer Election
+
+- Nominations: May 28 - June 6
+- Voting: June 9 - June 12
+
 ### Honorary Mentions
 
 - JD: Cyber Security Enthusiast, Massive Contributor
 
 ## Past Committees
+
+<!--
+### 2024-2025
+
+- Academic Chair: Pierce
+- Academic Events Officer: Pierce
+- CTF Events Officer: Hamish
+- Editor: Breeze
+- President: Pierce
+- Secretary: Aidan
+- Technical Officer: Quentin
+- Treasurer: Advait
+- CTF Chair: ??? (filled by Quentin)
+- Outreach Officer: ??? (filled by Pierce)
+- Publicity Officer: ??? (filled by Pierce)
+- Space Officer: ??? (filled by Pierce)
+
+<!-- Have I put myself in here a bit too many times? Maybe I should just remove the roles that I filled in for from here?
+-->
 
 ### 2023-2024
 
