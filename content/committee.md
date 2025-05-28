@@ -41,14 +41,15 @@ As a heads-up, we have a prospective candidate who will be applying for Presiden
 The Union is still doing their "all important information is in our newsletters (and not easily accessible)" nonsense...\
 So, here are the important details that we have so far:
 
-#### Key dates for the Summer Election
+#### Key Details for Summer Election 2025
 
-- Nominations: May 28 - June 6
+- [Nominations](https://vote.union.ic.ac.uk/stand.php?page=n): May 28 - June 6
 - Voting: June 9 - June 12
 
 ### Honorary Mentions
 
 - JD: Cyber Security Enthusiast, Massive Contributor
+- Emily: Security Masters, Enthusiastic Supporter
 
 ## Past Committees
 
@@ -68,6 +69,11 @@ So, here are the important details that we have so far:
 - Publicity Officer: ??? (filled by Pierce)
 - Space Officer: ??? (filled by Pierce)
 
+#### Honorary Mentions
+
+- JD: Cyber Security Enthusiast, Massive Contributor
+- Emily: Security Masters, Enthusiastic Supporter
+
 <!-- Have I put myself in here a bit too many times? Maybe I should just remove the roles that I filled in for from here?
 -->
 
@@ -80,6 +86,10 @@ So, here are the important details that we have so far:
 - Secretary: Sonny
 - Technical Officer: Quentin
 - Treasurer: Advait
+
+#### Honorary Mentions
+
+- JD: Cyber Security Enthusiast, Massive Contributor
 
 ### Early 2023
 
