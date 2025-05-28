@@ -9,7 +9,7 @@ Quick writeup for now, this page will be updated multiple times over the coming 
 
 ## Current Committee (2024-2025)
 
-At the time of writing (20250508), the current committee consists of:
+At the time of writing (20250528), the current committee consists of:
 
 - [Academic Chair](https://accidental-crepe-70c.notion.site/academic-chair-role-description): Pierce (open in Summer elections)
 - CTF Chair: Finley
@@ -17,12 +17,12 @@ At the time of writing (20250508), the current committee consists of:
 - Editor: Breeze
 - [President](https://accidental-crepe-70c.notion.site/president-role-description): Pierce (open in Summer elections)
 - [Secretary](https://accidental-crepe-70c.notion.site/secretary-role-description): Aidan (open in Summer elections)
-- Technical Officer: Quentin
+- [Technical Officer](https://accidental-crepe-70c.notion.site/tech-officer-role-description): Quentin
 - [Treasurer](https://accidental-crepe-70c.notion.site/treasurer-role-description): Advait (open in Summer elections)
 - [Academic Events Officer](https://accidental-crepe-70c.notion.site/academic-events-officer-role-description): Joe (open in Summer elections)
 - [Outreach Officer](https://accidental-crepe-70c.notion.site/outreach-officer-role-description): ??? (open in Summer elections)
 - Publicity Officer: Shoham
-- Space Officer: Hei Man
+- [Space Officer](https://accidental-crepe-70c.notion.site/space-officer-role-description): Hei Man
 
 ### Summer Elections 2025
 
@@ -56,14 +56,14 @@ So, here are the important details that we have so far:
 ### 2024-2025
 
 - Academic Chair: Pierce
-- Academic Events Officer: Pierce
+- Academic Events Officer: Pierce (Joe from Summer Term)
 - CTF Events Officer: Hamish
 - Editor: Breeze
 - President: Pierce
 - Secretary: Aidan
 - Technical Officer: Quentin
 - Treasurer: Advait
-- CTF Chair: ??? (filled by Quentin)
+- CTF Chair: Quentin (Finley from Summer Term)
 - Outreach Officer: ??? (filled by Pierce)
 - Publicity Officer: ??? (filled by Pierce)
 - Space Officer: ??? (filled by Pierce)
