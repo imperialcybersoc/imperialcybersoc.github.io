@@ -43,7 +43,7 @@ So, here are the important details that we have so far:
 
 #### Key Details for Summer Election 2025
 
-- [Nominations](https://vote.union.ic.ac.uk/stand.php?page=n): May 28 - June 6
+- [Nominations](https://vote.union.ic.ac.uk/stand.php): May 28 - June 6
 - Voting: June 9 - June 12
 
 ### Honorary Mentions
