@@ -19,7 +19,7 @@ At the time of writing (20250508), the current committee consists of:
 - [Secretary](https://accidental-crepe-70c.notion.site/secretary-role-description): Aidan (open in Summer elections)
 - Technical Officer: Quentin
 - [Treasurer](https://accidental-crepe-70c.notion.site/treasurer-role-description): Advait (open in Summer elections)
-- Academic Events Officer: Joe
+- [Academic Events Officer](https://accidental-crepe-70c.notion.site/academic-events-officer-role-description): Joe (open in Summer elections)
 - [Outreach Officer](https://accidental-crepe-70c.notion.site/outreach-officer-role-description): ??? (open in Summer elections)
 - Publicity Officer: Shoham
 - Space Officer: Hei Man
