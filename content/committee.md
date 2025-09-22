@@ -7,27 +7,25 @@ Quick writeup for now, this page will be updated multiple times over the coming 
 
 <!-- Would like to redo this page using partials and stuff, similar to how the events page is done -->
 
-## Current Committee (2024-2025)
+## Current Committee (2025-2026)
 
 At the time of writing (20250528), the current committee consists of:
 
-- [Academic Chair](https://accidental-crepe-70c.notion.site/academic-chair-role-description): Pierce (open in Summer elections)
+- [President](https://accidental-crepe-70c.notion.site/president-role-description): Joe
 - CTF Chair: Finley
-- [CTF Events Officer](https://accidental-crepe-70c.notion.site/ctf-events-officer-role-description): Hamish (open in Summer elections?)
-- Editor: Breeze
-- [President](https://accidental-crepe-70c.notion.site/president-role-description): Pierce (open in Summer elections)
-- [Secretary](https://accidental-crepe-70c.notion.site/secretary-role-description): Aidan (open in Summer elections)
-- [Technical Officer](https://accidental-crepe-70c.notion.site/tech-officer-role-description): Quentin
-- [Treasurer](https://accidental-crepe-70c.notion.site/treasurer-role-description): Advait (open in Summer elections)
-- [Academic Events Officer](https://accidental-crepe-70c.notion.site/academic-events-officer-role-description): Joe (open in Summer elections)
-- [Outreach Officer](https://accidental-crepe-70c.notion.site/outreach-officer-role-description): ??? (open in Summer elections)
-- Publicity Officer: Shoham
+- [CTF Events Officer](https://accidental-crepe-70c.notion.site/ctf-events-officer-role-description): Will
+- [Secretary](https://accidental-crepe-70c.notion.site/secretary-role-description): Shoham
+- [Technical Officer](https://accidental-crepe-70c.notion.site/tech-officer-role-description): ??? (Open in Autumn Elections)
+- [Treasurer](https://accidental-crepe-70c.notion.site/treasurer-role-description): Will
+- [Academic Events Officer](https://accidental-crepe-70c.notion.site/academic-events-officer-role-description): Joe (Open in Autumn elections)
+- Publicity Officer: Dima
 - [Space Officer](https://accidental-crepe-70c.notion.site/space-officer-role-description): Hei Man
+- [Academic Chair](https://accidental-crepe-70c.notion.site/academic-chair-role-description): ??? (Open in Autumn Elections)
+- [Outreach Officer](https://accidental-crepe-70c.notion.site/outreach-officer-role-description): ??? (open in Summer elections)
 
-### Summer Elections 2025
+### Autumn Elections 2025
 
-Most importantly, we need a President, Secretary, and Treasurer (we can't run a society without one :}).\
-As a heads-up, we have a prospective candidate who will be applying for President, but if you'd like to take a crack at it, go for it (but please also consider the other principle roles, too).
+Roles open for applications are: Academic Chair, Academic Events Officer, Outreach Officer. If you are interested in applying don't hesitate to contact a member of the committee.
 
 **Please read the role descriptions and responsibilities** (links from role name), as these detail exactly what you'll be expected to do in those roles.
 
@@ -41,15 +39,9 @@ As a heads-up, we have a prospective candidate who will be applying for Presiden
 The Union is still doing their "all important information is in our newsletters (and not easily accessible)" nonsense...\
 So, here are the important details that we have so far:
 
-#### Key Details for Summer Election 2025
+#### Key Details for Autumn Election 2025
 
-- [Nominations](https://vote.union.ic.ac.uk/stand.php): May 28 - June 6
-- Voting: June 9 - June 12
-
-### Honorary Mentions
-
-- JD: Cyber Security Enthusiast, Massive Contributor
-- Emily: Security Masters, Enthusiastic Supporter
+- [Nominations](https://vote.union.ic.ac.uk/stand.php)
 
 ## Past Committees
 
