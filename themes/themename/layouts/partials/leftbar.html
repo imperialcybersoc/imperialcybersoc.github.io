@@ -15,9 +15,9 @@
         <!-- {{if not .Page}}
             <i>(external)</i>
             {{end}} -->
-                <a class="joinbutton" href="https://www.imperialcollegeunion.org/csp/1377" >
+                <a class="joinbutton" href="https://www.imperialcollegeunion.org/csp/1377" target="_blank">
                     <span class="jointext">Join</span>
-                    <svg class="joinarrow" width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg" >
+                    <svg class="joinshape" width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg" >
                         <path d="M0.304879 0.27428C0.117659 0.449955 0.0124851 0.688189 0.0124851 0.936593C0.0124851 1.185 0.117659 1.42323 0.304879 1.59891L6.58945 7.49414L0.304879 13.3894C0.209497 13.4758 0.133416 13.5792 0.0810776 13.6935C0.0287388 13.8078 0.00118998 13.9307 3.77058e-05 14.0551C-0.00111456 14.1795 0.0241535 14.3028 0.074367 14.4179C0.124581 14.5331 0.198734 14.6377 0.292501 14.7256C0.386268 14.8136 0.49777 14.8831 0.620502 14.9302C0.743233 14.9773 0.874736 15.001 1.00734 15C1.13994 14.9989 1.27098 14.973 1.39282 14.9239C1.51466 14.8748 1.62486 14.8035 1.71698 14.714L8.70761 8.15646C8.89483 7.98078 9 7.74255 9 7.49414C9 7.24574 8.89483 7.00751 8.70761 6.83183L1.71698 0.27428C1.52971 0.0986589 1.27574 0 1.01093 0C0.746123 0 0.492156 0.0986589 0.304879 0.27428Z" fill="#16161C"/>
                     </svg>
 
@@ -25,20 +25,26 @@
     </div>
 </div>
 <div id="bottom">
-    <div id="sponsors" >
-        <p style="font-size: 22px; ">Sponsors:</p>
-        <img alt="none :(" src="https://www.clipartkey.com/mpngs/b/317-3176643_kappa-alpha-psi-clip-art.png" style="max-width: 200px;" >
-        <!-- <img src="" style="max-width: 100px;" alt="logoA"> -->
-        <a class=" navlink" href="mailto:cybersoc@imperial.ac.uk">
-            <br>Contact us!
+    <p style="font-size: 22px; ">Sponsors:</p>
+    <div id="sponsors" style="text-align: center">
+        <a href="https://www.crowdstrike.com/en-gb/" target="_blank">
+            <img alt="Crowdstrike" src="https://www.clipartkey.com/mpngs/b/317-3176643_kappa-alpha-psi-clip-art.png" style="max-width: 200px;" >
+        </a>
+        <a class="joinbutton" href="mailto:cybersoc@imperial.ac.uk">
+            <span class="jointext" style="text-align: center">Contact us!</span>
+            <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+            <svg class="joinshape" fill="#000000" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <g data-name="email">
+                    <rect width="24" height="24" opacity="0"/>
+                    <path d="M19 4H5a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-.67 2L12 10.75 5.67 6zM19 18H5a1 1 0 0 1-1-1V7.25l7.4 5.55a1 1 0 0 0 .6.2 1 1 0 0 0 .6-.2L20 7.25V17a1 1 0 0 1-1 1z"/>
+                </g>
+            </svg>
         </a>
     </div>
-    <!-- <div id="thanks">
-        <p>Thanks To:</p>
-        <img src="" style="max-width: 100px;" alt="logoB">
-    </div> -->
-    <br><a id="copyrightimage" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img
-            alt="CC BY-SA 4.0 License Badge" style="border-width:0;" width="80" height="15" src="/images/by-sa.png"></a>
+    <br>
+    <a id="copyrightimage" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+        <img alt="CC BY-SA 4.0 License Badge" style="border-width:0;" width="80" height="15" src="/images/by-sa.png">
+    </a>
     {{/* <br><a href="https://validator.w3.org/check?uri=referer">
         <img alt="Valid HTML5" style="border-width:0;" width="80" height="15" src="/images/valid_html5.png"></a>  */}}
     <br><i id="copyrighttext">{{.Site.Copyright}}</i><br>
